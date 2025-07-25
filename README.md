@@ -1,6 +1,7 @@
 # PMS
 ![未命名](https://hackmd.io/_uploads/ryi2RLlwxg.jpg)
 This is an implementation of [Photon-Driven Manifold Sampling](https://dl.acm.org/doi/10.1145/3675375) (PMS), 
+
 based on the original [Specular Manifold Sampling (SMS) codebase](https://github.com/tizian/specular-manifold-sampling)
 - implement PMS inside SMS-multi-scatter integrator
 - accompany with an example scene -- three slabs (modified from slab scene in SMS)
