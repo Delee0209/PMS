@@ -23,8 +23,8 @@ based on the original [Specular Manifold Sampling (SMS) codebase](https://github
 - `random_mode` decide how we choose photon
     - 0: choosing the closest photon
     - 1: uniformly selection photon
-    - 2: closer photon have higher change to get selected (the effect of this can be tuned with this `update_prob`)
-    - 3: using RIS
+    - 2: closer photon have higher change to get selected (the effect of this can be tuned with `update_prob`)
+    - 3: using RIS (importance based on distance)
 - `update_prob`: the probability (should be set between 0 and 1) to select the choser photon
     - this is only use when `random_mode` is set to 2
     - 1: will perform identical to choosing the closest photon
